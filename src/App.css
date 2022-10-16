@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter Tight', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&family=Quicksand:wght@300&family=Titillium+Web&display=swap');
+
+.App {
+  position: relative;
+}
+
+body {
+  background-color: rgb(33, 45, 80);
+}
+
+.login-option {
+  margin-top: 2%;
+  text-align: right;
+  margin-right: 15px;
+  background-color: transparent;
+  color: white;
+}
+
+.login-option button {
+  background-color: transparent;
+  color: white;
+  border: royalblue 1.5px solid;
+  padding: 11px;
+  border-radius: 5px;
+}
